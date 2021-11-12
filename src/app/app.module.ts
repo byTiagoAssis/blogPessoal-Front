@@ -12,6 +12,8 @@ import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { FormsModule } from '@angular/forms';
 import { InicioComponent } from './inicio/inicio.component';
 import { TemaComponent } from './tema/tema.component';
+import { EditTemaComponent } from './edit/edit-tema/edit-tema.component';
+import { DeleteTemaComponent } from './delete/delete-tema/delete-tema.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { TemaComponent } from './tema/tema.component';
     EntrarComponent,
     CadastrarComponent,
     InicioComponent,
-    TemaComponent
+    TemaComponent,
+    EditTemaComponent,
+    DeleteTemaComponent
   ],
   imports: [
     BrowserModule,
